@@ -119,21 +119,23 @@ const Contact = () => {
                 <p className="text-primary-foreground/90 mb-8 max-w-md mx-auto">
                   Agende uma conversa inicial sem compromisso e descubra como posso te ajudar nessa jornada.
                 </p>
-                <Button 
-                  size="xl" 
-                  className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold"
-                  asChild
-                >
-                  <a
-                    href="https://wa.me/5587996375891"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2"
+                <div className="flex justify-center">
+                  <Button
+                    size="xl"
+                    className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold"
+                    asChild
                   >
-                    <MessageCircle className="w-5 h-5" />
-                    Agendar pelo WhatsApp
-                  </a>
-                </Button>
+                    <a
+                      href="https://wa.me/5587996375891"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2"
+                    >
+                      <MessageCircle className="w-5 h-5" />
+                      Agendar pelo WhatsApp
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
