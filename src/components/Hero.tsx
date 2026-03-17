@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Heart, Sparkles } from "lucide-react";
-import biancaPhoto from "@/assets/bianca-photo.png";
+import biancaPhoto from "@/assets/bianca.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 import logoCircular from "@/assets/logo-circular.png";
 
@@ -38,23 +38,22 @@ const Hero = () => {
             </div>
 
             <h1
-              className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight mb-8 animate-fade-in-up"
+              className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-5xl font-bold leading-tight mb-8 animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
-            >
-              <span className="text-foreground">Cuidando da sua</span>
+            > 
+              <span className="text-foreground">Eu não cuido de doenças,</span>
               <br />
-              <span className="text-gradient">saúde mental</span>
+              <span className="text-gradient">cuido de pessoas.</span>
               <br />
-              <span className="text-foreground">com acolhimento</span>
+              <span className="text-foreground">Doenças têm sintomas e pessoas tem músicas preferidas</span>
             </h1>
 
             <p
               className="text-muted-foreground text-lg md:text-xl leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0 animate-fade-in-up"
               style={{ animationDelay: "0.4s" }}
             >
-              Um espaço seguro para você se conhecer, crescer e encontrar
-              equilíbrio emocional. Cada jornada é única, e estou aqui para
-              caminhar ao seu lado.
+              Um espaço seguro para que você
+              compartilhe os seus anseios sem julgamentos.
             </p>
 
             <div

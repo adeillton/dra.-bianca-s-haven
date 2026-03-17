@@ -7,26 +7,25 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      label: "Telefone",
-      value: "(00) 00000-0000",
-      href: "tel:+5500000000000",
+      label: "(87) 9 9637-5891",
+      href: "tel:+5587996375891",
     },
     {
       icon: Mail,
       label: "E-mail",
-      value: "contato@biancademelo.com",
-      href: "mailto:contato@biancademelo.com",
+      value: "psi.biancademelo@gmail.com",
+      href: "mailto:psi.biancademelo@gmail.com",
     },
     {
       icon: Instagram,
       label: "Instagram",
-      value: "@drabiancademelo",
-      href: "https://instagram.com/drabiancademelo",
+      value: "@psi.biamelo",
+      href: "https://www.instagram.com/psi.biamelo/",
     },
     {
       icon: Clock,
       label: "Horário",
-      value: "Seg - Sex: 8h às 20h",
+      value: "Segunda à Sexta",
       href: null,
     },
   ];
@@ -126,7 +125,7 @@ const Contact = () => {
                   asChild
                 >
                   <a
-                    href="https://wa.me/5500000000000"
+                    href="https://wa.me/5587996375891"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2"

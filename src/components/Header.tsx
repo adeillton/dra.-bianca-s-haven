@@ -37,7 +37,7 @@ const Header = () => {
             <img 
               src={logoCircular} 
               alt="Dra. Bianca de Melo - Psicóloga" 
-              className="h-14 md:h-16 w-auto relative z-10 transition-transform duration-300 group-hover:scale-105"
+              className="h-14 md:h-20 w-auto relative z-10 transition-transform duration-300 group-hover:scale-105"
             />
           </div>
         </a>

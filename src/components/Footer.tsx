@@ -1,11 +1,11 @@
-import { Heart, Instagram, Mail, Phone } from "lucide-react";
+import { ChartGanttIcon, Heart, Instagram, Mail, MessageCircleIcon, Phone } from "lucide-react";
 import logoCircular from "@/assets/logo-circular.png";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Instagram, href: "https://instagram.com/drabiancademelo", label: "Instagram" },
-    { icon: Mail, href: "mailto:contato@biancademelo.com", label: "Email" },
-    { icon: Phone, href: "tel:+5500000000000", label: "Telefone" },
+    { icon: Instagram, href: "https://www.instagram.com/psi.biamelo/", label: "Instagram" },
+    { icon: Mail, href: "mailto:psi.biancademelo@gmail.com", label: "Email" },
+    { icon: MessageCircleIcon, href: "https://wa.me/5587996375891", label: "WhatsApp" },
   ];
 
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
             
             {/* Tagline */}
             <p className="text-muted-foreground text-lg max-w-md mb-8 font-light">
-              Cuidando da sua saúde mental com acolhimento, empatia e profissionalismo.
+            Minha luz não é sobre brilhar, é sobre iluminar caminhos
             </p>
             
             {/* Social Links */}
@@ -58,11 +58,20 @@ const Footer = () => {
             <div className="flex items-center gap-2 text-muted-foreground text-sm mb-2">
               <span>Feito com</span>
               <Heart size={14} className="text-primary fill-primary animate-pulse" />
-              <span>por Dra. Bianca de Melo</span>
+              <span>por{" "}
+                <a
+                  href="https://renderhaus.dev.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-foreground hover:text-primary transition-colors duration-300"
+                >
+                  Render Haus
+                </a>
+              </span>
             </div>
             
             <p className="text-muted-foreground/70 text-xs">
-              CRP: 00/00000 | © {new Date().getFullYear()} Todos os direitos reservados
+              CRP: 02/30923 | © {new Date().getFullYear()} Todos os direitos reservados
             </p>
           </div>
         </div>
